@@ -35,7 +35,7 @@ pipeline {
             steps {
                 echo "Hello ${params.NAME}"
                 echo "Your description is ${params.DESCRIPTION}"
-                echo "Your social media is ${param.SOCIAL_MEDIA}"
+                echo "Your social media is ${params.SOCIAL_MEDIA}"
                 echo "Need to deploy ${params.DEPLOY} to deploy"
                 echo "Your secret is ${params.SECRET}"
             }
