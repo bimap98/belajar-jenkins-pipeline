@@ -115,6 +115,9 @@ pipeline {
                 message "Can we deploy?"
                 ok "Yes, of course"
                 submitter "bima,eko"
+                parameters {
+                    choice(name: "TARGET_ENV", choices: ["DEV", "QA", "PROD"], description: "Which Environment?")
+                }
             }
 
             agent {
