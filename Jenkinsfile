@@ -43,7 +43,7 @@ pipeline {
                     }
                 }
 
-                stage("Prepare Mavem") {
+                stage("Prepare Maven") {
                     steps {
                         echo("Prepare Maven")
                     }
